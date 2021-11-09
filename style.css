@@ -1,0 +1,41 @@
+#Sketch{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aquamarine;
+}
+#button{
+float: right;
+}
+body{
+    background-color: rgb(241, 243, 123);
+    text-align: center;
+}
+canvas{
+    border-width: 200;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 4px;
+    animation-name: color ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes color{
+    from{box-shadow:4px 5px 34px gray;}
+    to{box-shadow: 4px 5px 34px whitesmoke;}
+}
+#Object{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+#Accuracy{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
